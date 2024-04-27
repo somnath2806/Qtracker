@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navigation-bar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: linear-gradient(to right,#f0e7d8,#e8a01a);
+    
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: Arial Black;
+}
+.q{
+    color: orange;
+    font-size: 50px;
+    animation-name: zoom;
+}
+.nav-link{
+    font-size: 20px;
+    margin-left: 15px;
+    color: black !important;
+    font-weight: bolder;
+}
+.nav-link:hover{
+  text-decoration: underline 2px solid black;
+  text-underline-offset: 4px;
+}
+.dropdown-menu{
+    font-size: 20px;
+    background-color:#f0b74d;
+}
+.homepageinfo{
+    position: relative;
+    top: 100px;
+    z-index: -4;
+}
+.heading{
+    color: orange;
+    margin-top: 50px;
+    font-family: Arial Black;
+    font-size: 40px;
+}
+.info{
+    font-size: 20px;
+    padding: 40px;
+    font-weight: bolder;
+}
+.mycaro{
+    width: 800px;
+}
+.heading2{
+    font-size: 25px;
+    color: royalblue;
+}
+.courseinfo{
+    margin-left: 100px;
+}
+.courseinfo ul li{
+    font-size: 20px;
+}
+/* .navbar-brand{
+    -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+} */
